@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="055610c9-227f-470d-80bf-518e64d09950">
+  <name>Демо_ФункцииВосстановления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо функции восстановления</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

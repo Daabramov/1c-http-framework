@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ead76d8e-f34c-4569-8bce-706c4004406a">
+  <producedTypes>
+    <objectType typeId="5e1382d3-42bb-4e2b-bcca-bf95fa6ced05" valueTypeId="0a909580-d546-4489-894c-1109add0fd24"/>
+    <refType typeId="a6686134-311f-4e22-9e3f-801a86c7cde5" valueTypeId="fc027364-d786-4bc3-8d7c-60d4f928211b"/>
+    <selectionType typeId="146b00e8-cf06-41a2-99a7-2b6bf5f7df46" valueTypeId="24effe16-6269-4b37-a525-a58c5eb6dc2c"/>
+    <listType typeId="978656a8-c458-471f-8eb7-995e4fc4335b" valueTypeId="fc876777-96fe-47b3-be02-541f0e6a3cfe"/>
+    <managerType typeId="61e0a8b0-b1a8-44ee-bfa2-32a5112b4834" valueTypeId="2f94762e-ab45-4c7e-8957-a132caecdc28"/>
+  </producedTypes>
+  <name>Демо_Сообщение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Демо_Сообщение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="395f29af-e117-4c29-aeb8-2bd6c2c6bd74">
+    <name>Запрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Демо_Заявка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="003476f9-a10c-4082-ab17-c764becf662c">
+    <name>ТелоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bfb1e310-51b2-4a9b-a1cb-007df8ae32f0">
+    <name>СообщениеОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение ответа</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Демо_Сообщение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

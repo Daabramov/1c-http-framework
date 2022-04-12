@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="817028a9-fc09-452d-b10e-7daedf77035d">
+  <name>ХТТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>ХТТП</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ПроцессорКоллекций</content>
+  <content>CommonModule.ОбработкаHTTPЗапросов</content>
+  <content>CommonModule.ПроцессорыКоллекций</content>
+  <content>CommonModule.ПроцессорыКоллекцийСлужебный</content>
+  <content>CommonModule.ВосстановлениеXDTO</content>
+  <content>CommonModule.ВосстановлениеXDTOПереопределяемый</content>
+  <subsystems>ПроцессорыКоллекций</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,22 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.example.com/api/common/1.0">
+	<valueType name="guid" base="xs:string" length="36">
+		<pattern>[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}</pattern>
+	</valueType>
+	<valueType name="string_100" base="xs:string" minLength="1" maxLength="100"/>
+	<objectType name="request.create" open="true" ordered="false">
+		<property xmlns:d3p1="http://www.example.com/api/common/1.0" name="subject" type="d3p1:string_100"/>
+		<property xmlns:d3p1="http://www.example.com/api/common/1.0" name="project_id" type="d3p1:guid"/>
+		<property xmlns:d3p1="http://www.example.com/api/common/1.0" name="message" type="d3p1:message"/>
+		<property name="urgent" type="xs:boolean"/>
+		<property name="attachment_hashes" type="xs:string" lowerBound="0" upperBound="-1"/>
+		<property name="date" type="xs:dateTime"/>
+	</objectType>
+	<objectType name="message" open="true" ordered="false">
+		<property name="body" type="xs:string"/>
+		<property xmlns:d3p1="http://www.example.com/api/common/1.0" name="reply_message" type="d3p1:guid" lowerBound="0"/>
+	</objectType>
+	<objectType name="project.create" open="false" ordered="false">
+		<property name="name" type="xs:string"/>
+		<property name="project_owner" type="xs:string" lowerBound="0"/>
+	</objectType>
+</package>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fd000b3-44c8-43f4-b4e8-8931e78063c6">
+  <name>Демо_</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTTPСервис</value>
+  </synonym>
+  <rootURL>demo</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>5</sessionMaxAge>
+  <urlTemplates uuid="cbeb2af8-0898-43a5-8748-9ff846b3c7fa">
+    <name>projects</name>
+    <synonym>
+      <key>ru</key>
+      <value>Projects</value>
+    </synonym>
+    <template>/v1/projects/</template>
+    <methods uuid="265b1e17-01b5-4ea8-af32-efb8be578c3f">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>projectsCreatePOST</handler>
+    </methods>
+    <methods uuid="8c5e314b-3441-4361-889d-a04fca65ef8b">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>projectsGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ab81f1f1-9cc8-4b39-8044-7a286e3ef502">
+    <name>requests</name>
+    <synonym>
+      <key>ru</key>
+      <value>Requests</value>
+    </synonym>
+    <template>/v1/requests/</template>
+    <methods uuid="fd79b611-d8d3-4f4d-8601-fa10629d04f6">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>CreatePOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
