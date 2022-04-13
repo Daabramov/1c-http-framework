@@ -52,5 +52,6 @@
   <commonModules>CommonModule.ПроцессорыКоллекций</commonModules>
   <commonModules>CommonModule.ПроцессорыКоллекцийСлужебный</commonModules>
   <commonModules>CommonModule.СервисыОбщее</commonModules>
+  <xDTOPackages>XDTOPackage.ОбщегоНазначенияХТТП</xDTOPackages>
   <dataProcessors>DataProcessor.ПроцессорКоллекций</dataProcessors>
 </mdclass:Configuration>
