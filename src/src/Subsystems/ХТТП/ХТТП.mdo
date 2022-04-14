@@ -12,5 +12,13 @@
   <content>CommonModule.ПроцессорыКоллекцийСлужебный</content>
   <content>CommonModule.ВосстановлениеXDTO</content>
   <content>CommonModule.ВосстановлениеXDTOПереопределяемый</content>
+  <content>CommonModule.Кеширование</content>
+  <content>CommonModule.ОбработкаЗапросовПереопределяемый</content>
+  <content>CommonModule.КоннекторХТТПСлужебный</content>
+  <content>CommonModule.ОбработкаЗапросовПовтИсп</content>
+  <content>CommonModule.ОбщегоНазначенияХТТП</content>
+  <content>CommonModule.СервисыОбщее</content>
+  <content>XDTOPackage.ОбщегоНазначенияХТТП</content>
+  <content>Role.ПолныеПрава</content>
   <subsystems>ПроцессорыКоллекций</subsystems>
 </mdclass:Subsystem>
