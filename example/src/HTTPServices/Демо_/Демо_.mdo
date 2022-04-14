@@ -74,4 +74,21 @@
       <handler>projects_signleGET</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="299ce93b-7c8b-4481-8da5-6218b416c9fd">
+    <name>projects_single_files</name>
+    <synonym>
+      <key>ru</key>
+      <value>Projects single files</value>
+    </synonym>
+    <template>/v1/projects/{project_id}/files</template>
+    <methods uuid="7f7d3d3c-1e30-45c8-b4d2-dc1a0251ccb1">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>projects_signle_file_POST</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
