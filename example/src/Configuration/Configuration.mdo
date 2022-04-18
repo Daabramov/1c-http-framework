@@ -50,4 +50,5 @@
   <catalogs>Catalog.Демо_Проекты</catalogs>
   <documents>Document.Демо_Заявка</documents>
   <documents>Document.Демо_Сообщение</documents>
+  <dataProcessors>DataProcessor.ГенераторСхемыКонфигурации</dataProcessors>
 </mdclass:Configuration>

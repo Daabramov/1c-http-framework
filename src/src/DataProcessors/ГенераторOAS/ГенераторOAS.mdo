@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64fccaae-868a-4bdf-aa18-166b8317b120">
+  <producedTypes>
+    <objectType typeId="3e6bc127-f21e-4842-8c19-1c78a982f8b3" valueTypeId="fe74389f-97ad-4953-a92d-589d3209a369"/>
+    <managerType typeId="c958cb1f-6f3c-444b-8a79-81768d9efea0" valueTypeId="96ebf5c4-1495-4f78-a7d5-4d0cbe1b0c65"/>
+  </producedTypes>
+  <name>ГенераторOAS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор OAS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

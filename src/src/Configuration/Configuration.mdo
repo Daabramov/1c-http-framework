@@ -43,6 +43,7 @@
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ВосстановлениеXDTO</commonModules>
   <commonModules>CommonModule.ВосстановлениеXDTOПереопределяемый</commonModules>
+  <commonModules>CommonModule.ГенераторOAS</commonModules>
   <commonModules>CommonModule.Кеширование</commonModules>
   <commonModules>CommonModule.КоннекторХТТПСлужебный</commonModules>
   <commonModules>CommonModule.ОбработкаHTTPЗапросов</commonModules>
@@ -53,5 +54,6 @@
   <commonModules>CommonModule.ПроцессорыКоллекцийСлужебный</commonModules>
   <commonModules>CommonModule.СервисыОбщее</commonModules>
   <xDTOPackages>XDTOPackage.ОбщегоНазначенияХТТП</xDTOPackages>
+  <dataProcessors>DataProcessor.ГенераторOAS</dataProcessors>
   <dataProcessors>DataProcessor.ПроцессорКоллекций</dataProcessors>
 </mdclass:Configuration>
