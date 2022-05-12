@@ -14,6 +14,7 @@
       <key>ru</key>
       <value>Projects</value>
     </synonym>
+    <comment>Работа со списком проектов</comment>
     <template>/v1/projects/</template>
     <methods uuid="265b1e17-01b5-4ea8-af32-efb8be578c3f">
       <name>POST</name>
@@ -39,6 +40,7 @@
       <key>ru</key>
       <value>Requests</value>
     </synonym>
+    <comment>Работа со списком запросов</comment>
     <template>/v1/requests/</template>
     <methods uuid="fd79b611-d8d3-4f4d-8601-fa10629d04f6">
       <name>POST</name>
@@ -64,6 +66,7 @@
       <key>ru</key>
       <value>Projects single</value>
     </synonym>
+    <comment>Работа с конкретным проектом</comment>
     <template>/v1/projects/{project_id}</template>
     <methods uuid="eebc5959-afae-40b1-9643-3c9e21d05579">
       <name>GET</name>
@@ -80,6 +83,7 @@
       <key>ru</key>
       <value>Projects single files</value>
     </synonym>
+    <comment>Работы с файлами проекта</comment>
     <template>/v1/projects/{project_id}/files</template>
     <methods uuid="7f7d3d3c-1e30-45c8-b4d2-dc1a0251ccb1">
       <name>GET</name>
