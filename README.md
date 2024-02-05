@@ -1,3 +1,7 @@
+# ВНИМАНИЕ
+Проект переехал как часть Bellerage SSL - https://github.com/Bellerage-IT/bellerage-ssl
+Данный репозиторий не развивается
+
 # 1c-http-framework
 Реализация фреймворка для HTTP сервисов на 1С
 
